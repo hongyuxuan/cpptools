@@ -46,10 +46,14 @@ private:
     mutable string mWhat;
 };
 
-class DxpException : public ExceptionBase
-{
-public:
-	MY_DEFINE_EXCEPTION(DxpException, ExceptionBase);
-};
-
+/*
+ * This is an example exception
+ *
+ * class DxpException : public ExceptionBase
+ * {
+ * public:
+ *     MY_DEFINE_EXCEPTION(DxpException, ExceptionBase);
+ * };
+ *
+*/
 #endif
